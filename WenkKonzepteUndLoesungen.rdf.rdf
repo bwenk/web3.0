@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:schema="http://schema.org/"> 
+  <rdf:Description>
+    <rdf:type rdf:resource="http://schema.org/Corporation"/>
+	  <schema:name>Wenk - Konzepte und Lösungen</schema:name>
+	  <schema:founder>
+	    <rdf:Description>
+	      <rdf:type rdf:resource="http://schema.org/Person"/>
+	      <schema:name>Bruno Wenk</schema:name>
+		  <schema:sameAs>https://www.brunowenk.info/BWe</schema:sameAs>
+		</rdf:Description>
+	  </schema:founder>
+  </rdf:Description>
+</rdf:RDF>

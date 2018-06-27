@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph" : [ {
+    "@id" : "http://brunowenk.info/BWe",
+    "@type" : "schema:Person",
+    "schema:birthDate" : "1952-12-27",
+    "schema:birthPlace" : "St.Gallen",
+    "schema:email" : "bruno.wenk@eclipso.ch",
+    "schema:familyName" : "Wenk",
+    "schema:gender" : "http://schema.org/Male",
+    "schema:givenName" : "Bruno"
+  } ]
+}
+</script>

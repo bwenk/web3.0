@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<neuerwerbung xmlns:schema="http://schema.org/">
+  <schema:Book>
+    <schema:name>Zeit des Fasans</schema:name>
+    <schema:author>
+	  <schema:name>Otto F. Walter</schema:name>
+	  <schema:givenName>Otto F.</schema:givenName>
+	  <schema:familyName>Walter</schema:familyName>
+    </schema:author>
+    <schema:publisher>Rowohlt</schema:publisher>
+    <schema:bookFormat>Paperback</schema:bookFormat>
+    <schema:datePublished>2002</schema:datePublished>
+    <schema:isbn>978-3499129407</schema:isbn>
+  </schema:Book>
+</neuerwerbung>

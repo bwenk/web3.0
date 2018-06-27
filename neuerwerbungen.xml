@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<neuerwerbungen xmlns:schema="http://schema.org/">
+
+    <schema:Book>
+	  <schema:name>Zeit des Fasans</schema:name>
+	  <schema:author>
+	    <schema:name>Otto F. Walter</schema:name>
+		<schema:givenName>Otto F.</schema:givenName>
+		<schema:familyName>Walter</schema:familyName>
+	  </schema:author>
+	  <schema:publisher>Rowohlt</schema:publisher>
+	  <schema:bookFormat>Paperback</schema:bookFormat>
+	  <schema:datePublished>2002</schema:datePublished>
+	  <schema:isbn>978-3499129407</schema:isbn>
+    </schema:Book>
+	
+    <schema:Book>
+	  <schema:name>Dionysos</schema:name>
+	  <schema:author>
+	    <schema:name>Walter F. Otto</schema:name>
+		<schema:givenName>Walter F.</schema:givenName>
+		<schema:familyName>Otto</schema:familyName>
+	  </schema:author>
+	  <schema:publisher>Klostermann</schema:publisher>
+	  <schema:bookFormat>Paperback</schema:bookFormat>
+	  <schema:datePublished>1996</schema:datePublished>
+	  <schema:isbn>978-3465028741</schema:isbn>
+    </schema:Book>
+	
+    <schema:Movie>
+	  <schema:name>Mein Name ist Eugen</schema:name>
+	  <schema:director>
+	    <schema:name>Michael Steiner</schema:name>
+		<schema:givenName>Michael</schema:givenName>
+		<schema:familyName>Steiner</schema:familyName>
+	  </schema:director>
+	  <schema:fileFormat>DVD</schema:fileFormat>
+	  <schema:datePublished>2007</schema:datePublished>
+    </schema:Movie>
+	
+</neuerwerbungen>

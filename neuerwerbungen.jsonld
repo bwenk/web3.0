@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "_:N927876a7ebc249bba1784b1e8b32611d",
+      "schema:familyName": "Steiner",
+      "schema:givenName": "Michael",
+      "schema:name": "Michael Steiner"
+    },
+    {
+      "@id": "_:N1564b8179b004638b55718b71736f992",
+      "@type": "schema:Movie",
+      "schema:datePublished": "2007",
+      "schema:director": {
+        "@id": "_:N927876a7ebc249bba1784b1e8b32611d"
+      },
+      "schema:fileFormat": "DVD",
+      "schema:name": "Mein Name ist Eugen"
+    },
+    {
+      "@id": "_:N1e54b9f2283f4e969bde2988fc143180",
+      "@type": "schema:Book",
+      "schema:author": {
+        "@id": "_:N14cd766937ed402cb1d9d9e5702d0bfd"
+      },
+      "schema:bookFormat": "Paperback",
+      "schema:datePublished": "1996",
+      "schema:isbn": "978-3465028741",
+      "schema:name": "Dionysos",
+      "schema:publisher": "Klostermann"
+    },
+    {
+      "@id": "_:N14cd766937ed402cb1d9d9e5702d0bfd",
+      "schema:familyName": "Otto",
+      "schema:givenName": "Walter F.",
+      "schema:name": "Walter F. Otto"
+    },
+    {
+      "@id": "_:Naa5568a0be864c47a20de1332c02b6bd",
+      "schema:familyName": "Walter",
+      "schema:givenName": "Otto F.",
+      "schema:name": "Otto F. Walter"
+    },
+    {
+      "@id": "_:N959016c8356041d08ea0bb629a3eae14",
+      "@type": "schema:Book",
+      "schema:author": {
+        "@id": "_:Naa5568a0be864c47a20de1332c02b6bd"
+      },
+      "schema:bookFormat": "Paperback",
+      "schema:datePublished": "2002",
+      "schema:isbn": "978-3499129407",
+      "schema:name": "Zeit des Fasans",
+      "schema:publisher": "Rowohlt"
+    }
+  ]
+}

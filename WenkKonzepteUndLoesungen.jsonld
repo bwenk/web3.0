@@ -1,0 +1,18 @@
+<script type='application/ld+json'>
+{
+	"@context": "http://schema.org/",
+	"@type": "Corporation",
+	"address": {
+		"@type": "PostalAddress",
+		"addressCountry": "CH",
+		"addressLocality": "Widnau",
+		"addressRegion": "SG",
+		"postalCode": "9443",
+		"streetAddress": "Aegetholzstrasse 20"
+	},
+	"description": "Erarbeitung von Konzepten und Lösungen für den effektiven Einsatz digitaler Technologien und Anwendungen in KMU, Verwaltung und Bildung.",
+	"email": "bruno.wenk@eclipso.ch",
+	"founder": "http://brunowenk.info/BWe",
+	"name": "Wenk - Konzepte und Lösungen"
+}
+</script>

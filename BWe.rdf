@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:schema="http://schema.org/"> 
+  <rdf:Description>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+	  <schema:givenName>Bruno</schema:givenName>
+	  <schema:familyName>Wenk</schema:familyName>
+	  <schema:gender>http://schema.org/Male</schema:gender>
+	  <schema:birthDate>1952-12-27</schema:birthDate>
+	  <schema:birthPlace>St.Gallen</schema:birthPlace>
+  </rdf:Description>
+</rdf:RDF>

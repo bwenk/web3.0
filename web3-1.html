@@ -1,0 +1,182 @@
+<html>
+<head>
+  <title>Web 3.0</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Bruno Wenk">
+  <meta name="date" content="2018-03-24"
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+  <style>
+    body {font-family: 'Josefin Slab', 'Georgia', serif;}
+    h1,h2,h3,h4,h5,h6 {font-family: 'Open Sans Condensed', 'Trebuchet MS', sans-serif;}
+    .hint {font-family: 'Open Sans Condensed', 'Trebuchet MS', sans-serif;}
+    .title {color: #ecb535; font-weight: bold;}
+    .w3-bar,h1,button {font-family: 'Open Sans Condensed', 'Trebuchet MS', sans-serif;}
+    .w3-theme-l5 {color:#000 !important; background-color:#fefbf5 !important}
+    .w3-theme-l4 {color:#000 !important; background-color:#fcf2dc !important}
+    .w3-theme-l3 {color:#000 !important; background-color:#f9e6ba !important}
+    .w3-theme-l2 {color:#000 !important; background-color:#f5d997 !important}
+    .w3-theme-l1 {color:#000 !important; background-color:#f2cd75 !important}
+    .w3-theme-d1 {color:#000 !important; background-color:#ecb535 !important}
+    .w3-theme-d2 {color:#000 !important; background-color:#e9ab18 !important}
+    .w3-theme-d3 {color:#fff !important; background-color:#ce9613 !important}
+    .w3-theme-d4 {color:#fff !important; background-color:#b08010 !important}
+    .w3-theme-d5 {color:#fff !important; background-color:#936b0e !important}
+    .w3-theme-light {color:#000 !important; background-color:#fefbf5 !important}
+    .w3-theme-dark {color:#fff !important; background-color:#936b0e !important}
+    .w3-theme-action {color:#fff !important; background-color:#936b0e !important}
+    .w3-theme {color:#000 !important; background-color:#efc050 !important}
+    .w3-text-theme {color:#efc050 !important}
+    .w3-theme-border {border-color:#efc050 !important}
+    .w3-hover-theme:hover {color:#000 !important; background-color:#efc050 !important}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-l1 w3-card w3-left-align w3-large">
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-theme-l1 w3-center" style="padding:64px 16px">
+  <h1 class="w3-margin w3-jumbo">Web 3.0: Vom Web of Documents zum Web of Data</h1>
+  <h2>Eine kurze Einführung in die Konzepte des semantischen Web</h2>
+</header>
+
+<!-- row -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <div>
+        <h1 class="title">Das Web of Documents</h1>
+        <p class="w3-text-darkgrey w3-xlarge">Das World Wide Web - wie wir es heute (2018) kennen - umfasst Milliarden von Webseiten (webpages) mit Texten, Bildern, Tabellen und oft auch Videos, Audioinhalten und interaktiven Grafiken.</p>
+        <p class="w3-text-darkgrey w3-xlarge">Zusammengehörende Webseiten bilden einen Webauftritt (website), dessen einzelne Seiten miteinander verlinkt sind (<a href="https://de.wikipedia.org/wiki/Hypertext" target="_blank">Hypertext bzw. Hypermedia</a>). Die Seiten eines Webauftritts können auch Verweise (links) auf Webseiten anderer Webauftritte enthalten. So gesehen ist das Web eine riesige Sammlung von verteilten, untereinander verlinkten Webseiten.</p>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div>
+        <h1>&nbsp;</h1>
+        <a href="Hypertext.svg" target="_blank"><img style="display:block; margin:auto;" src="Hypertext.svg" width="90%"></a>
+        <p class="hint w3-medium w3-center"><a href="Hypertext.svg" target="_blank">Grafik vergrössern</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- row -->
+<div class="w3-row-padding w3-padding-large w3-container">
+  <div class="w3-content">
+    <div>
+      <h3 class="title">Die HyperTextMarkup Language (HTML)</h3>
+      <p class="w3-text-darkgrey w3-xlarge">Die einzelnen Webseiten sind Textdokumente, die in der <i>Auszeichnungssprache HTML</i> (HyperText Markup Language) verfasst sind. HTML stellt Sprachelemente (tags) zur Verfügung, um den Inhalt einer Webseite zu beschreiben. Der <i>Browser</i> interpretiert den HTML-Text und stellt den Inhalt auf dem Bildschirm für Menschen lesbar dar.</p>
+      <p class="w3-text-darkgrey w3-xlarge">In den letzten Jahren hat sich das <i>Web of documents</i> von textlastigen hin zu grafisch ansprechend gestalteten Webseiten entwickelt. Ausserdem gibt es mittlerweile immer mehr <i>responsive</i> Webseiten, d.h. Webseiten deren Aussehen (und teilweise auch Inhalt) sich dynamisch der Fenstergrösse des Browsers anpasst. Dieses Konzept der Trennung von Inhalt und Form hat auch die Nutzung des Web auf mobilen Endgeräten (Tablets, Smartphones, usw.) gefördert. Der Inhalt einer Webseite wird weiterhin mit HTML formuliert, das Aussehen (die Form) wird mit Cascading Style Sheets (CSS) festgelegt.</p> 
+        <p class="w3-text-dark-grey w3-xlarge"><b>Beispiel</b>:</p> 
+    </div>
+  </div>
+</div>
+    
+<!-- row -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird w3-padding">
+        <img src="Screenshot_Neuerwerbungen-Html.png" width="95%">
+        <p class="hint w3-center w3-medium"><a href="Neuerwerbungen-Html.html" target="_blank">Ansicht vergrössern</a></p>
+    </div>
+    <div class="w3-third w3-padding">
+        <img src="Screenshot_Neuerwerbungen.png" width="95%">
+        <p class="hint w3-center w3-medium"><a href="Neuerwerbungen.html" target="_blank">Ansicht vergrössern</a></p>
+    </div>
+  </div>
+</div>
+    
+<!-- row -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content w3-card">    
+    <button onclick="myAccordion('reflexion1')" class="w3-button w3-block w3-theme-l2 w3-text-dark-grey w3-left-align"><b>Reflexion</b></button>
+    <div id="reflexion1" class="w3-hide w3-container">
+      <div class="w3-theme-l4 w3-margin w3-card w3-padding">
+        <p class="w3-text-grey w3-xlarge">Betrachten Sie die Beispiel-Webseite (rechts). Wie interpretieren Sie deren Inhalt?</p>
+        <p class="w3-text-grey w3-xlarge">Wie würde ein Programm (z.B. eine Suchmaschine) den HTML-Text (links) interpretieren können?</p>
+      </div>
+      <button onclick="myAccordion('muster1')" class="w3-button w3-block w3-theme-l2 w3-text-dark-grey w3-left-align"><b>"Musterlösung"</b></button>
+      <div id="muster1" class="w3-hide w3-container">
+        <div class="w3-theme-l4 w3-margin w3-card w3-padding">
+          <p class="w3-text-grey w3-xlarge">Dass der HTML-Text (links) im Browser die Bildschirmdarstellung (rechts) bewirkt, ist sicher leicht erkennbar.</p>
+          <p class="w3-text-grey w3-xlarge">Die Überschrift "Neuerwerbungen" und die Auflistung von Büchern und einem Video bringen wir Menschen wahrscheinlich rasch mit einer Bibliothek in Verbindung, obwohl wir den Kontext nicht kennen. Die Webseite ist für uns informativ - vielleicht entdecken wir darauf sogar ein uns bisher nicht bekanntes Buch. Wir nutzen unser Wissen und unsere Erfahrung, um die wahrgenommenen "Dinge" in einen Zusammenhang zu bringen und deren Bedeutung zu verstehen.</p>
+          <p class="w3-text-grey w3-xlarge">Wie kann nun ein Programm (z.B. eine Suchmaschine) die Bedeutung des Inhalts der Webseite erkennen?</p>
+          <p class="w3-text-grey w3-xlarge">Dem Programm steht nur der HTML-Text zur Verfügung; es kann den Begriff "Neuerwerbungen" erkennen, aber nicht, dass es sich dabei um Bücher handelt (allerdings sind dem Programm vielleicht das Medium "DVD" und der Begriff "ISBN-13" bekannt). Das Programm könnte eventuell sogar "Otto F. Walter" und "Walter F. Otto" als Namen von Personen erkennen; aber ob es zwei verschiedene Personen sind, erschliesst sich dem Programm nicht. Und dem Programm bleibt auch verborgen, dass das Video mit dem Titel "Mein Name ist Eugen" eine Verfilmung des gleichnamigen Buches von Klaus Schädelin ist.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- row -->
+<div class="w3-row-padding w3-padding-large w3-container">
+  <div class="w3-content">
+    <div>
+      <h3 class="title">Die Unzulänglichkeit des Web of Documents</h3>
+      <p class="w3-text-darkgrey w3-xlarge">Die Webseiten im Web of Documents sind auf Menschen ausgerichtet. Die Anbieter versuchen mit immer grösserem Aufwand, uns Menschen für den Besuch ihrer Webseiten zu gewinnen und zu halten.</p>
+      <p class="w3-text-darkgrey w3-xlarge">Programme (insbesondere Suchmaschinen) haben aber Mühe, aus den HTML-Texten die Bedeutung der Inhalte von Webseiten schlüssig zu erkennen. Deshalb erhalten wir für unsere Suchanfragen in Google, Bing, Yandex, DuckDuckGo, Qwant, Swisscows, usw. in der Regel unsäglich viele Treffer - und die ersten 20 Treffer sind bezüglich unseres Suchziels nicht zwingend die relevantesten.</p>
+      <div class="w3-content w3-card">
+        <button onclick="myAccordion('experiment1')" class="w3-button w3-block w3-theme-l2 w3-text-dark-grey w3-left-align"><b>Experiment</b></button>
+        <div id="experiment1" class="w3-hide w3-container">
+          <div class="w3-theme-l4 w3-margin w3-card w3-padding">
+            <p class="w3-text-grey w3-xlarge">Suchen Sie mit verschiedenen Suchmaschinen nach Bildern von Otto F. Walter. Sind alle Treffer eindeutig und relevant?</p>
+            <p class="w3-text-grey w3-xlarge">Suchen Sie danach mit der Phrase "mein name ist eugen" und dem Stichwort "buch" nach den beiden Büchern mit diesem Titel von Klaus Schädelin bzw. Eugen Litwinow. Was finden Sie?</p>
+          </div>
+        </div>
+      </div>
+      <p class="w3-text-darkgrey w3-xlarge">Die Weiterentwicklung des Web hin zum <a href="web3-2.html" target="_blank"><i>Web of Data</i></a> bietet einen Lösungsansatz für dieses Problem.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-black w3-center w3-opacity" style="font-family: 'Open Sans Condensed', sans-serif;"> 
+  <p class="w3-small">Bruno Wenk, März 2018</p>
+  <p><img src="PublicDomain.svg"></p> 
+ <p class="w3-small">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myToggleNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+<script>
+// accordion
+function myAccordion(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace("w3-theme-l2", "w3-theme-l4");
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace("w3-theme-l4", "w3-theme-l2");
+    }
+}
+</script>
+
+</body>
+</html>
+

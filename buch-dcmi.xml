@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<neuerwerbung 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcmi="http://purl.org/dc/terms/">
+  <dcmi:BibliographicResource>
+    <dcmi:type>Text</dcmi:type>
+    <dcmi:title>Zeit des Fasans</dcmi:title>
+    <dcmi:creator>Otto F. Walter</dcmi:creator>
+    <dcmi:publisher>Rowohlt</dcmi:publisher>
+    <dcmi:format>Paperback</dcmi:format>
+    <dcmi:date>2002</dcmi:date>
+    <dcmi:identifier>978-3499129407</dcmi:identifier>
+  </dcmi:BibliographicResource>
+</neuerwerbung>

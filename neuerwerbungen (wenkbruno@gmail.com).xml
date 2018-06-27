@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:schema="http://schema.org/"> 
+  <rdf:Description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+	  <schema:name>Zeit des Fasans</schema:name>
+	  <schema:author>
+	    <rdf:Description>
+	    <schema:name>Otto F. Walter</schema:name>
+		<schema:givenName>Otto F.</schema:givenName>
+		<schema:familyName>Walter</schema:familyName>
+		</rdf:Description>
+	  </schema:author>
+	  <schema:publisher>Rowohlt Taschenbuch</schema:publisher>
+	  <schema:isbn>978-3499129407</schema:isbn>
+  </rdf:Description>
+  <rdf:Description>
+    <rdf:type rdf:resource="http://schema.org/Book"/>
+	  <schema:name>Dionysos</schema:name>
+	  <schema:author>
+	    <rdf:Description>
+	    <schema:name>Walter F. Otto</schema:name>
+		<schema:givenName>Walter F.</schema:givenName>
+		<schema:familyName>Otto</schema:familyName>
+		</rdf:Description>
+	  </schema:author>
+	  <schema:publisher>Klostermann Taschenbuch</schema:publisher>
+	  <schema:isbn>978-3465028741</schema:isbn>
+  </rdf:Description>
+</rdf:RDF>
